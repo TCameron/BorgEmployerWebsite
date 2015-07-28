@@ -1,0 +1,48 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+}
+
+label {
+	display: block;
+    width: 150px;
+    float: left;
+    margin: 2px;
+    text-align: right;
+}
+
+.input {
+	border: 1px solid #006;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-style: groove;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+li {
+	float:left;
+}
+
+a:link,a:visited {
+	display:block;
+	width:100px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#6080ab;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a:hover,a:active {
+	background-color:#60aaab;
+}
